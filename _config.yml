@@ -1,0 +1,16 @@
+title: UltraPass Developers
+description: Developer documentation for the UltraPass Platform
+theme: just-the-docs
+
+# Set a path/url to a logo that will be displayed instead of the title
+logo: "/assets/images/logo.png"
+
+# Set a path/url to a favicon that will be displayed by the browser
+favicon_ico: "/assets/images/favicon.ico"
+
+# color_scheme: upid
+
+url: https://just-the-docs.github.io
+
+# aux_links:
+#   Template Repository: https://github.com/just-the-docs/just-the-docs-template
