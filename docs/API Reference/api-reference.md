@@ -6,9 +6,9 @@ has_children: true
 permalink: /docs/api-reference
 ---
 
-# Products
+# API Reference
 
-UltraPass makes it easy to authenticate and receive verified data from people and organizations. 
+UltraPass makes it easy to authenticate and receive verified data from people and organizations in just a few API calls. 
 
 Use **TrustLink** to manage credentials.
 
