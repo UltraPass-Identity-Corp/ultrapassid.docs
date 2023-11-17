@@ -3,7 +3,7 @@ layout: default
 title: Products
 nav_order: 3
 has_children: true
-permalink: /docs
+permalink: /docs/products
 ---
 
 # Products
