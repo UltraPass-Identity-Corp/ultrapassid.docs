@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Schema Management
-parent: Portal
+parent: TrustLink
 nav_order: 1
 ---
 

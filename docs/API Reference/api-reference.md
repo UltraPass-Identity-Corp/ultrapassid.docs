@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Products
+title: API Reference
 nav_order: 4
 has_children: true
-permalink: /docs/products
+permalink: /docs/api-reference
 ---
 
 # Products
