@@ -1,6 +1,6 @@
 ---
 layout: default
-title: UAuth
+title: TrustLink
 parent: Products
 nav_order: 1
 ---
