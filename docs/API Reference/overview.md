@@ -10,7 +10,7 @@ nav_order: 1
 
 Service Endpoint:
 
-* **api.ultrapassid.com**
+* **api.ultrapassid.com/core**
 
 Web: <a href="https://www.ultrapassid.com/">UltraPass</a> 
 

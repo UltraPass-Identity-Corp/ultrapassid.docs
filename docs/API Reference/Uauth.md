@@ -15,8 +15,8 @@ nav_order: 3
 > Code samples
 
 ```http
-POST https://dev-clientapi-a53fz2ohf.azurewebsites.net/api/uauth/session HTTP/1.1
-Host: dev-clientapi-a53fz2ohf.azurewebsites.net
+POST https://api.ultrapassid.com/core/uauth/session HTTP/1.1
+Host: api.ultrapassid.com
 Content-Type: application/json
 Accept: application/json
 
@@ -65,8 +65,8 @@ x-upid-organization-key
 > Code samples
 
 ```http
-GET https://dev-clientapi-a53fz2ohf.azurewebsites.net/api/uauth/session/{sessionId} HTTP/1.1
-Host: dev-clientapi-a53fz2ohf.azurewebsites.net
+GET https://api.ultrapassid.com/core/uauth/session/{sessionId} HTTP/1.1
+Host: api.ultrapassid.com
 Accept: application/json
 
 ```
