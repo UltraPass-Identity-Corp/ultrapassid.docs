@@ -1,6 +1,6 @@
 ---
 layout: default
-title: UAuth Workflow Configuration
+title: Workflow Configuration
 parent: UAuth Protocol
 grand_parent: Portal
 nav_order: 1
