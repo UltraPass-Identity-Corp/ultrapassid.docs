@@ -3,7 +3,6 @@ layout: default
 title: UAuth
 nav_order: 2
 ---
----
 <!-- Generator: Widdershins v4.0.1 -->
 
 <h1 id="client-api">Client Api v1.0</h1>
