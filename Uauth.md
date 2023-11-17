@@ -1,11 +1,4 @@
 ---
-layout: default
-title: UAuth
-nav_order: 2
----
-
-
----
 title: Client Api v1.0
 language_tabs:
   - shell: Shell
