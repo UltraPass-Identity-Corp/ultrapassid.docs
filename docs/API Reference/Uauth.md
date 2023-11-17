@@ -46,7 +46,7 @@ Accept: application/json
 
 <h3 id="cacheworkflowinstancesession-responses">Responses</h3>
 
-|Status|Meaning|Description|Schema|
+|Status|Meaning|Description|Model|
 |---|---|---|---|
 |201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|Session has been cached|[cacheWorkflowSessionResponse](#schemacacheworkflowsessionresponse)|
 |400|[Bad Request](https://tools.ietf.org/html/rfc7231#section-6.5.1)|Request not valid|string|
@@ -89,7 +89,7 @@ Accept: application/json
 
 <h3 id="getcachedworkflowinstance-responses">Responses</h3>
 
-|Status|Meaning|Description|Schema|
+|Status|Meaning|Description|Model|
 |---|---|---|---|
 |200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|The cached Workflow|[getCachedWorkflowSessionResponse](#schemagetcachedworkflowsessionresponse)|
 |400|[Bad Request](https://tools.ietf.org/html/rfc7231#section-6.5.1)|Request not valid|string|
@@ -100,7 +100,7 @@ To perform this operation, you must be authenticated by means of one of the foll
 x-upid-organization-key
 </aside>
 
-# Schemas
+# Models
 
 <h2 id="tocS_cacheWorkflowSessionCommand">cacheWorkflowSessionCommand</h2>
 <!-- backwards compatibility -->
