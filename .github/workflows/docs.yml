@@ -1,0 +1,21 @@
+name: Doc Automation
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+
+jobs:
+  # Build job
+  build:
+    runs-on: ubuntu-latest
+    steps:
+        - uses: actions/checkout@v4
+        - uses: actions/setup-node@v4
+          with:
+            node-version: 16
+            cache: 'npm'
+        - run: npm install -g widdershins
+        - run: widdershins https://dev-api.ultrapassid.com/product/swagger/swagger.json?upid-api-key=ce32741e3c76443c9f23e147f2e81f8d&tag=UAuth -o ./templates/UAuth.md
+        - run: npm install -g @knennigtri/merge-markdown
+        - run: merge-markdown -m path/to/files
