@@ -2,26 +2,9 @@
 layout: default
 title: UAuth
 parent: API Reference
-nav_order: 2
+nav_order: 3
 ---
 <!-- Generator: Widdershins v4.0.1 -->
-
-<h1 id="client-api">Client Api v1.0</h1>
-
-> Scroll down for code samples, example requests and responses. Select a language for code samples from the tabs above or the mobile navigation menu.
-
-UltrapassId Client Api
-
-Base URLs:
-
-* <a href="https://dev-clientapi-a53fz2ohf.azurewebsites.net/api">https://dev-clientapi-a53fz2ohf.azurewebsites.net/api</a>
-
-Web: <a href="https://ultrapassid.com/">UltrapassId</a> 
-
-# Authentication
-
-* API Key (x-upid-organization-key)
-    - Parameter Name: **x-upid-organization-key**, in: header. 
 
 <h1 id="client-api-uauth">UAuth</h1>
 
