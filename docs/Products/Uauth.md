@@ -1,6 +1,7 @@
 ---
 layout: default
 title: UAuth
+parent: Products
 nav_order: 2
 ---
 <!-- Generator: Widdershins v4.0.1 -->
