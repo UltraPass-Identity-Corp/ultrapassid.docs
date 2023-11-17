@@ -1,12 +1,12 @@
 ---
 layout: default
-title: UAuth
+title: UAuth Protocol
 parent: API Reference
 nav_order: 3
 ---
 <!-- Generator: Widdershins v4.0.1 -->
 
-<h1 id="client-api-uauth">UAuth</h1>
+<h1 id="client-api-uauth">UAuth Protocol</h1>
 
 ## CacheWorkflowInstanceSession
 
