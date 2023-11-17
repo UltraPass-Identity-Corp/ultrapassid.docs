@@ -4,7 +4,7 @@ layout: home
 nav_order: 1
 ---
 
-<button class="btn js-toggle-dark-mode">Preview dark color scheme</button>
+<!-- <button class="btn js-toggle-dark-mode">Preview dark color scheme</button> -->
 
 <script>
 const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
