@@ -1,7 +1,7 @@
 ---
 layout: default
 title: TrustLink
-parent: Products
+parent: API Reference
 nav_order: 1
 ---
 
