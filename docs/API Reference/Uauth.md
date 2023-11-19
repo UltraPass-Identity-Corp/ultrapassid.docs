@@ -6,9 +6,9 @@ nav_order: 3
 ---
 <h1 id="-uauth">UAuth</h1>
 
-> Create sessions for Workflows and receive the response at the redirectURL configured in the Portal.
+> Create sessions for AuthFlows and receive the response at the redirectURL configured in the Portal.
 
-## CacheWorkflowInstanceSession
+## CreateAuthFlowSession
 
 <a id="opIdCacheWorkflowInstanceSession"></a>
 
@@ -56,49 +56,9 @@ Accept: application/json
 <aside class="warning">
 </aside>
 
-## GetCachedWorkflowInstance
-
-<a id="opIdGetCachedWorkflowInstance"></a>
-
-> Code samples
-
-```http
-GET /uauth/session/{sessionId} HTTP/1.1
-
-Accept: application/json
-
-```
-
-`GET /uauth/session/{sessionId}`
-
-<h3 id="getcachedworkflowinstance-parameters">Parameters</h3>
-
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|sessionId|path|string|true|Existing SessionId|
-
-> Example responses
-
-> 200 Response
-
-```json
-"{\"workflowKey\":\"322dbc7a-0a8a-452a-ba6d-c3e893f29ecc\",\"policyId\":\"B2C_1A_UUID_REGISTRATION\",\"clientRedirectUrl\":\"https://dev-portal.ultrapassid.com\"}"
-```
-
-<h3 id="getcachedworkflowinstance-responses">Responses</h3>
-
-|Status|Meaning|Description|Model|
-|---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|The cached Workflow|[getCachedWorkflowSessionResponse](#schemagetcachedworkflowsessionresponse)|
-|400|[Bad Request](https://tools.ietf.org/html/rfc7231#section-6.5.1)|Request not valid|string|
-|424|[Failed Dependency](https://tools.ietf.org/html/rfc2518#section-10.5)|Dependent Workflow exception|string|
-
-<aside class="warning">
-</aside>
-
 # Models
 
-<h2 id="tocS_cacheWorkflowSessionCommand">cacheWorkflowSessionCommand</h2>
+<h2 id="tocS_cacheWorkflowSessionCommand">createAuthFlowSessionCommand</h2>
 
 <a id="schemacacheworkflowsessioncommand"></a>
 <a id="schema_cacheWorkflowSessionCommand"></a>
@@ -116,7 +76,7 @@ Accept: application/json
 |---|---|---|---|---|
 |workflowKey|string(uuid)|false|none|none|
 
-<h2 id="tocS_cacheWorkflowSessionResponse">cacheWorkflowSessionResponse</h2>
+<h2 id="tocS_cacheWorkflowSessionResponse">createAuthFlowSessionResponse</h2>
 
 <a id="schemacacheworkflowsessionresponse"></a>
 <a id="schema_cacheWorkflowSessionResponse"></a>
@@ -133,24 +93,6 @@ Accept: application/json
 |Name|Type|Required|Restrictions|Description|
 |---|---|---|---|---|
 |workflowInstanceSessionDto|[workflowInstanceSessionDto](#schemaworkflowinstancesessiondto)|false|none|none|
-
-<h2 id="tocS_getCachedWorkflowSessionResponse">getCachedWorkflowSessionResponse</h2>
-
-<a id="schemagetcachedworkflowsessionresponse"></a>
-<a id="schema_getCachedWorkflowSessionResponse"></a>
-<a id="tocSgetcachedworkflowsessionresponse"></a>
-<a id="tocsgetcachedworkflowsessionresponse"></a>
-
-```json
-"{\"workflowKey\":\"322dbc7a-0a8a-452a-ba6d-c3e893f29ecc\",\"policyId\":\"B2C_1A_UUID_REGISTRATION\",\"clientRedirectUrl\":\"https://dev-portal.ultrapassid.com\"}"
-
-```
-
-### Properties
-
-|Name|Type|Required|Restrictions|Description|
-|---|---|---|---|---|
-|workflowInstanceSessionResponse|[workflowInstanceSessionResponseDto](#schemaworkflowinstancesessionresponsedto)|false|none|none|
 
 <h2 id="tocS_workflowInstanceSessionDto">workflowInstanceSessionDto</h2>
 
@@ -171,53 +113,3 @@ Accept: application/json
 |Name|Type|Required|Restrictions|Description|
 |---|---|---|---|---|
 |getSessionUrl|string(uri)|false|none|none|
-
-<h2 id="tocS_workflowInstanceSessionResponseDto">workflowInstanceSessionResponseDto</h2>
-
-<a id="schemaworkflowinstancesessionresponsedto"></a>
-<a id="schema_workflowInstanceSessionResponseDto"></a>
-<a id="tocSworkflowinstancesessionresponsedto"></a>
-<a id="tocsworkflowinstancesessionresponsedto"></a>
-
-```json
-{
-  "workflowKey": {
-    "guid": "ee6a7af7-650d-499b-8e32-58a52ffdb7bc",
-    "value": "a860a344-d7b2-406e-828e-8d442f23f344"
-  },
-  "policyId": "string",
-  "clientRedirectUrl": "string"
-}
-
-```
-
-### Properties
-
-|Name|Type|Required|Restrictions|Description|
-|---|---|---|---|---|
-|workflowKey|[workflowKey](#schemaworkflowkey)|false|none|none|
-|policyId|string|false|none|none|
-|clientRedirectUrl|string|false|none|none|
-
-<h2 id="tocS_workflowKey">workflowKey</h2>
-
-<a id="schemaworkflowkey"></a>
-<a id="schema_workflowKey"></a>
-<a id="tocSworkflowkey"></a>
-<a id="tocsworkflowkey"></a>
-
-```json
-{
-  "guid": "ee6a7af7-650d-499b-8e32-58a52ffdb7bc",
-  "value": "a860a344-d7b2-406e-828e-8d442f23f344"
-}
-
-```
-
-### Properties
-
-|Name|Type|Required|Restrictions|Description|
-|---|---|---|---|---|
-|guid|string(uuid)|false|none|none|
-|value|string(uuid)|false|none|none|
-
