@@ -4,9 +4,9 @@ title: UAuth Protocol
 parent: API Reference
 nav_order: 3
 ---
-<!-- Generator: Widdershins v4.0.1 -->
+<h1 id="-uauth">UAuth</h1>
 
-<h1 id="client-api-uauth">UAuth Protocol</h1>
+> Create sessions for Workflows and receive the response at the redirectURL configured in the Portal.
 
 ## CacheWorkflowInstanceSession
 
@@ -15,8 +15,8 @@ nav_order: 3
 > Code samples
 
 ```http
-POST https://api.ultrapassid.com/core/uauth/session HTTP/1.1
-Host: api.ultrapassid.com
+POST /uauth/session HTTP/1.1
+
 Content-Type: application/json
 Accept: application/json
 
@@ -54,8 +54,6 @@ Accept: application/json
 |424|[Failed Dependency](https://tools.ietf.org/html/rfc2518#section-10.5)|Dependent Workflow exception|string|
 
 <aside class="warning">
-To perform this operation, you must be authenticated by means of one of the following methods:
-x-upid-organization-key
 </aside>
 
 ## GetCachedWorkflowInstance
@@ -65,8 +63,8 @@ x-upid-organization-key
 > Code samples
 
 ```http
-GET https://api.ultrapassid.com/core/uauth/session/{sessionId} HTTP/1.1
-Host: api.ultrapassid.com
+GET /uauth/session/{sessionId} HTTP/1.1
+
 Accept: application/json
 
 ```
@@ -96,14 +94,12 @@ Accept: application/json
 |424|[Failed Dependency](https://tools.ietf.org/html/rfc2518#section-10.5)|Dependent Workflow exception|string|
 
 <aside class="warning">
-To perform this operation, you must be authenticated by means of one of the following methods:
-x-upid-organization-key
 </aside>
 
 # Models
 
 <h2 id="tocS_cacheWorkflowSessionCommand">cacheWorkflowSessionCommand</h2>
-<!-- backwards compatibility -->
+
 <a id="schemacacheworkflowsessioncommand"></a>
 <a id="schema_cacheWorkflowSessionCommand"></a>
 <a id="tocScacheworkflowsessioncommand"></a>
@@ -121,7 +117,7 @@ x-upid-organization-key
 |workflowKey|string(uuid)|false|none|none|
 
 <h2 id="tocS_cacheWorkflowSessionResponse">cacheWorkflowSessionResponse</h2>
-<!-- backwards compatibility -->
+
 <a id="schemacacheworkflowsessionresponse"></a>
 <a id="schema_cacheWorkflowSessionResponse"></a>
 <a id="tocScacheworkflowsessionresponse"></a>
@@ -139,7 +135,7 @@ x-upid-organization-key
 |workflowInstanceSessionDto|[workflowInstanceSessionDto](#schemaworkflowinstancesessiondto)|false|none|none|
 
 <h2 id="tocS_getCachedWorkflowSessionResponse">getCachedWorkflowSessionResponse</h2>
-<!-- backwards compatibility -->
+
 <a id="schemagetcachedworkflowsessionresponse"></a>
 <a id="schema_getCachedWorkflowSessionResponse"></a>
 <a id="tocSgetcachedworkflowsessionresponse"></a>
@@ -157,7 +153,7 @@ x-upid-organization-key
 |workflowInstanceSessionResponse|[workflowInstanceSessionResponseDto](#schemaworkflowinstancesessionresponsedto)|false|none|none|
 
 <h2 id="tocS_workflowInstanceSessionDto">workflowInstanceSessionDto</h2>
-<!-- backwards compatibility -->
+
 <a id="schemaworkflowinstancesessiondto"></a>
 <a id="schema_workflowInstanceSessionDto"></a>
 <a id="tocSworkflowinstancesessiondto"></a>
@@ -177,7 +173,7 @@ x-upid-organization-key
 |getSessionUrl|string(uri)|false|none|none|
 
 <h2 id="tocS_workflowInstanceSessionResponseDto">workflowInstanceSessionResponseDto</h2>
-<!-- backwards compatibility -->
+
 <a id="schemaworkflowinstancesessionresponsedto"></a>
 <a id="schema_workflowInstanceSessionResponseDto"></a>
 <a id="tocSworkflowinstancesessionresponsedto"></a>
@@ -204,7 +200,7 @@ x-upid-organization-key
 |clientRedirectUrl|string|false|none|none|
 
 <h2 id="tocS_workflowKey">workflowKey</h2>
-<!-- backwards compatibility -->
+
 <a id="schemaworkflowkey"></a>
 <a id="schema_workflowKey"></a>
 <a id="tocSworkflowkey"></a>
