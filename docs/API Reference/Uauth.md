@@ -6,7 +6,7 @@ nav_order: 3
 ---
 <h1 id="-uauth">UAuth</h1>
 
-> Create sessions for AuthFlows and receive the response at the redirectURL configured in the Portal.
+> Create sessions and trigger AuthFlows at the returned sessionURL. Your application must be prepared to receive the session reponse at the redirectURL configured in the Portal for the corresponding AuthFlow.
 
 ## CreateAuthFlowSession
 
