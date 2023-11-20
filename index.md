@@ -20,9 +20,9 @@ jtd.addEvent(toggleDarkMode, 'click', function(){
 });
 </script>
 
-# UltraPass Developer Documentation
+# UltraPass Docs
 
-Welcome to the **UltraPass Developer Documentation**. This is where you can find everything you need to know about how to integrate with UltraPass, the ultimate platform for identity and credential solutions.
+Welcome to the **UltraPass Docs**. This is where you can find everything you need to know about how to integrate with UltraPass, the ultimate platform for identity and credential solutions.
 
 ## What is UltraPass? 
 
