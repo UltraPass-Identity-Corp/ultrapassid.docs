@@ -26,7 +26,7 @@ Welcome to the **UltraPass Docs**. This is where you can find everything you nee
 
 ## What is UltraPass? 
 
-UltraPass is a platform that enables you to quickly deploy identity and credential solutions at scale, using the power of verifiable credentials. Verifiable credentials are digital representations of claims that can be cryptographically verified by any relying party. For example, a verifiable credential can represent an identity document, a diploma, a health record, or any other type of data that needs to be trusted and verified.
+UltraPass is a Trust Platform that enables you to quickly deploy identity and credential solutions at scale, using the power of verifiable credentials. Verifiable credentials are digital representations of claims that can be cryptographically verified by any relying party. For example, a verifiable credential can represent an identity document, a diploma, a health record, or any other type of data that needs to be trusted and verified.
 
 UltraPass allows you to create, issue, verify, and exchange verifiable credentials across ecosystems, using open standards and protocols. UltraPass also provides you with tools and services to manage your identity and credential authflows, such as credential schemas, digital wallets, identity verification, biometrics, and more.
 
