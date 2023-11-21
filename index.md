@@ -53,8 +53,8 @@ UltraPass offers several benefits for Organizations who want to integrate with v
 To get started with UltraPass, you need to follow these steps:
 
 1. Register for an account on the [UltraPass Portal](https://portal.ultrapassid.com), where you can manage your Organization and configure products.
-2. Explore our [Portal Guide](https://www.markdownguide.org/basic-syntax/), where you can find step-by-step instructions on how to create your first schema, issue your first credential, authenticate users, and more.
-3. Browse our [Technical Documentation](https://google.github.io/styleguide/docguide/style.html), where you can find detailed guides, tutorials, references, and examples on how to integrate with our API platform.
+2. Explore our [Portal Guide](https://docs.ultrapassid.com/docs/portal), where you can find step-by-step instructions on how to create your first schema, issue your first credential, authenticate users, and more.
+3. Browse our [Technical Documentation](https://docs.ultrapassid.com/docs/api-reference), where you can find detailed guides, tutorials, references, and examples on how to integrate with our API platform.
 4. Contact us if you have any questions or feedback. We are always happy to hear from you.
 
 We hope you enjoy using UltraPass and join us in building a more secure, private, and convenient digital world. Thank you for choosing UltraPass! 
