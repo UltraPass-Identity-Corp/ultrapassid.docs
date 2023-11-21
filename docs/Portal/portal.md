@@ -16,8 +16,8 @@ An <b>Organization</b> consists of a billing profile, domain, users, and product
 
 Users have the ability to manage TrustLink Schemas and UAuth Flows on behalf of their organization. 
 
-### API Keys
+## API Keys
 
-<b>API Keys</b> are generated per Organization and are displayed in the Portal. API Keys must be treated as highly confidential and should be rotated often. Each Organization is provided with a Primary and Secondary key that can be rotated independently.
+<b>API Keys</b> are generated per Organization and are displayed in the Portal. API Keys must be treated as highly confidential and should be rotated often. Each Organization is provided with a Primary and Secondary key that can be rotated independently. Keys are passed in the 'x-upid-api-key' header on requests.
 
 {: .fs-6 .fw-300 }
