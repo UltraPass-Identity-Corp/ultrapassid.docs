@@ -9,7 +9,7 @@ permalink: /docs/api-reference/uauth
 
 # UAuth Integrations
 
-UAuth is a secure and flexible authentication product that allows you to integrate with various systems and applications. UAuth supports two different types of integrations: standards based OIDC and RESTful API.
+UAuth is a secure and flexible decentralized identity provider that enables privacy preserving authentication in various systems and applications. UAuth supports two different types of integrations: standards based OIDC and RESTful API.
 
 - **OIDC** stands for OpenID Connect, which is a standard protocol for identity verification and authorization. OIDC integration enables you to use UAuth as an identity provider for any system or application that supports OIDC.
 - **API** integration allows you to use UAuth's proprietary API for systems that do not have OIDC support but have the capability to call a RESTful web service. API integration requires more support and development, but provides a more flexible integration; allowing modern authentication flows to be consumed from legacy applications.
