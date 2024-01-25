@@ -12,4 +12,4 @@ nav_order: 1
 
 ## Authorization Code Flow with PKCE
 
-![alt text](../../assets/images/OIDC_AuthorizationCodeFlowPKCE.png "Architecture")
+![alt text](../../../assets/images/OIDC_AuthorizationCodeFlowPKCE.png "OIDC - Authorization Code Flow with PKCE")
