@@ -1,7 +1,7 @@
 ---
 layout: default
-title: UAuth Protocol
-parent: API Reference
+title: API Integration
+parent: UAuth
 nav_order: 3
 ---
 <h1 id="-uauth">UAuth</h1>
