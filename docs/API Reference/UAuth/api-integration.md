@@ -2,7 +2,7 @@
 layout: default
 title: API Integration
 parent: UAuth
-nav_order: 3
+nav_order: 1
 ---
 <h1 id="-uauth">UAuth</h1>
 
