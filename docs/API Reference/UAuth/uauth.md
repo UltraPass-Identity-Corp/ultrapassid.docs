@@ -19,7 +19,7 @@ UAuth is a secure and flexible authentication product that allows you to integra
 > UAuth supports system entitlements and authorization through verifiable credentials. Control roles and system access by verifying cryptographic signatures on issued permissions during the authentication process.
 
 Authorization Schema:
-```json
+```js
 {
     "uauthId": guid,
     "roleName": string,
