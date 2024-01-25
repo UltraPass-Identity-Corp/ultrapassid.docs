@@ -5,7 +5,7 @@ parent: UAuth
 grand_parent: API Reference
 nav_order: 2
 ---
-<h1 id="-uauth">UAuth</h1>
+<h1 id="-uauth">UAuth API</h1>
 
 > Create sessions and trigger UAuthFlows at the returned sessionURL. Your application must be prepared to receive the session reponse at the redirectURL configured in the Portal for the corresponding UAuthFlow.
 
