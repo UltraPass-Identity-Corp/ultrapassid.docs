@@ -10,6 +10,10 @@ nav_order: 1
 
 > Authenticate users in compliance with the Authoriation Code Flow with PKCE standard. Any OIDC compliant client library with support for this standard may be used to interface with UAuth.
 
+OIDC Service Endpoint:
+
+* **auth.ultrapassid.com**
+
 ## Authorization Code Flow with PKCE
 
 ![alt text](../../../assets/images/OIDC_AuthorizationCodeFlowPKCE.png "OIDC - Authorization Code Flow with PKCE")
