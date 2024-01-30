@@ -8,8 +8,6 @@ permalink: /docs/portal/trustlink
 ---
 <sub>{% last_modified_at %}</sub>
 
-<br>
-
 Use **TrustLink** to manage credentials.
 
 {: .fs-6 .fw-300 }

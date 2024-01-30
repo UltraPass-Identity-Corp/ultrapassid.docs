@@ -9,8 +9,6 @@ permalink: /docs/portal
 # UltraPass Portal
 <sub>{% last_modified_at %}</sub>
 
-<br>
-
 The UltraPass Portal allows for ease of administration of your Organization and Product configurations.
 
 ## Organizations

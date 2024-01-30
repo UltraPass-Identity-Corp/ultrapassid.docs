@@ -8,8 +8,6 @@ nav_order: 2
 <h1 id="-uauth">TrustLink Issuance</h1>
 <sub>{% last_modified_at %}</sub>
 
-<br>
-
 > Create a verifiable credential offer based on a TrustLink Schema containing supplied user data. Returned response can be displayed to an end user with a QR Code or Deeplink.
 
 ## GenerateCredential
