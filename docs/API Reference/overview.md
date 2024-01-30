@@ -5,7 +5,9 @@ parent: API Reference
 nav_order: 1
 ---
 <h1 id="client-api">UltraPass Core API</h1>
-LastModified: {% last_modified_at %}
+<sub>{% last_modified_at %}</sub>
+
+<br>
 
 > REST API for interacting with UltraPass products and services
 

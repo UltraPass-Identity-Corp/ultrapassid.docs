@@ -7,6 +7,9 @@ nav_order: 1
 ---
 
 <h1 id="-uauth">UAuth OIDC</h1>
+<sub>{% last_modified_at %}</sub>
+
+<br>
 
 > Authenticate users in compliance with the Authorization Code Flow with PKCE standard. Any OIDC compliant client library with support for this standard may be used to interface with UAuth.
 

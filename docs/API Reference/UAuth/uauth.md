@@ -8,6 +8,9 @@ permalink: /docs/api-reference/uauth
 ---
 
 # UAuth Integrations
+<sub>{% last_modified_at %}</sub>
+
+<br>
 
 UAuth is a secure and flexible decentralized identity provider that enables privacy preserving authentication in various systems and applications. UAuth supports two different types of integrations: standards based OIDC and RESTful API.
 
