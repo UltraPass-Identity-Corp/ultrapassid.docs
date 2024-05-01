@@ -1,10 +1,9 @@
 ---
 layout: default
 title: TrustLink
-nav_order: 1
+nav_order: 3
 has_children: true
-parent: Portal
-permalink: /docs/portal/trustlink
+permalink: /docs/trustlink
 ---
 <sub>{% last_modified_at %}</sub>
 
