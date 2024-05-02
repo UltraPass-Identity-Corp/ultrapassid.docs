@@ -94,7 +94,6 @@ Generate Credential Offer from existing Published Schema
 To perform this operation, you must be authenticated by means of one of the following methods:
 apiKeyHeader
 </aside>
-<br>
 
 ## GenerateVerificationOfferAsync
 
@@ -178,7 +177,6 @@ Generate Verification Offer from existing Published Schema
 To perform this operation, you must be authenticated by means of one of the following methods:
 apiKeyHeader
 </aside>
-<br>
 
 ## GetVerificationSessionResultAsync
 
@@ -256,7 +254,6 @@ Get Credential Verification Session Result
 To perform this operation, you must be authenticated by means of one of the following methods:
 apiKeyHeader
 </aside>
-<br>
 
 # Credential Models
 
@@ -483,7 +480,7 @@ apiKeyHeader
 |---|---|---|---|---|
 |guid|string(uuid)|false|none|none|
 |value|string(uuid)|false|none|none|
-<br>
+
 
 <h1 id="client-api-v1-schemaverifiers">Verification Schemas</h1>
 
@@ -552,8 +549,6 @@ Get all Schema Verifiers
 To perform this operation, you must be authenticated by means of one of the following methods:
 apiKeyHeader
 </aside>
-<br>
-<br>
 <h1 id="client-api-v1-schemas">Published Schemas</h1>
 
 > Retrieve available Published Schemas for the Organization.  Schemas can be managed using the Ultrapass Portal.
@@ -704,7 +699,6 @@ Get all Published Schemas
 To perform this operation, you must be authenticated by means of one of the following methods:
 apiKeyHeader
 </aside>
-<br>
 
 # Schema Models
 
