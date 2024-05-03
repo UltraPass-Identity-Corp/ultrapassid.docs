@@ -16,7 +16,7 @@ This documentation provides a foundational understanding of the UltraPass TrustL
 ## Key Terminology
 
 ### Verifiable Credentials
-Verifiable Credentials are digital attestations that contain claims made by an Issuing Organization about a subject. These credentials are cryptographically secure, tamper-evident, and can be verified by anyone with the necessary Verification Schema.
+Verifiable Credentials are digital attestations that contain claims made by an Issuing Organization about a subject. These credentials are cryptographically secure, tamper-evident, and can be verified by anyone through cyptographic signatures and decentralized identifiers.
 
 ### Credential Fields
 Credential Fields are the specific pieces of information contained within a verifiable credential. These fields are defined by the Issuance Schema and can include data such as the credential holder's personal data, entitlements, and other relevant information about the subject.
