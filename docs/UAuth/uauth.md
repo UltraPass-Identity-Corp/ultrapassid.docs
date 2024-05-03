@@ -42,9 +42,9 @@ The UAuth Wallet mobile app provides a highly secure non-custodial solution wher
 - Remain in full control of your data with secure local credential storage leveraging native device encryption
 - Limited backup and recovery options requiring multiple device registrations
 - MFA Options:
-    - TOTP (Time-based One-Time Password) support for secure authentication
-    - Mobile push notifications with number matching for transaction verification
+    - Mobile push notifications with number matching
     - Passkey technology integration for passwordless authentication
+    - TOTP (Time-based One-Time Password) support for secure authentication
 
 ## Security Features
 UltraPass UAuth prioritizes security with features such as:

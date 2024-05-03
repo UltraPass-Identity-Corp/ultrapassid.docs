@@ -33,9 +33,9 @@ The TrustLink Marketplace is a credential discovery platform where Issuing and V
 
 ## Standards Compliance and Interoperability:
 
-TrustLink supports the OpenID4VC standard for credential exchange, which is an extension of OpenID Connect tailored for verifiable credential applications. This standard allows for market interoperability with secure credential exchange and ensures adherence to established protocols. The supported credential formats include JSON-LD, JWT, and SD-JWT W3C Verifiable Credentials as well as ISO/IEC 18013-5 mdoc/mDL.
+TrustLink supports the **OpenID4VC** standard for credential exchange, which is an extension of OpenID Connect tailored for verifiable credential applications. This standard allows for market interoperability with secure credential exchange and ensures adherence to established protocols. The supported credential formats include **JSON-LD**, **JWT**, and **SD-JWT** **W3C Verifiable Credentials** as well as **ISO/IEC 18013-5 mdoc/mDL**.
 
-OpenID4VC provides a structured approach to credential issuance and presentation, allowing for a variety of credential formats to be issued and presented. It follows familiar patterns within the OpenID specifications family, ensuring a consistent and reliable framework for digital identity verification.
+**OpenID4VC** provides a structured approach to credential issuance and presentation, allowing for a variety of credential formats to be issued and presented. It follows familiar patterns within the OpenID specifications family, ensuring a consistent and reliable framework for digital identity verification.
 
 ## Integration:
 
