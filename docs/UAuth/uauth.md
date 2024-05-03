@@ -16,7 +16,7 @@ UltraPass UAuth is a decentralized, privacy-preserving identity provider that ut
 2. **Local Encryption**: Users' biometric data is encrypted locally using full homomorphic encryption. This process ensures that only encrypted data leaves the device. Operations are done against the encrypted biometric profile.
 3. **Unique Identifier**: UAuth generates a unique identifier from the encrypted biometric profile and all subsequent logins compare encrypted profiles in order to uniquely identify individuals.
 4. **Hashing per Organization**: This identifier is then used to create a unique hash for each organization that uses UAuth to authenticate users. Hashing in this manner provides privacy preserving reusuable identity and tracking resilient logins based on user biometrics.
-5. **JWT id_token**: The unique hashed identifier is encapsulated within a signed JWT id_token, which is returned to the relying party application; confirming to standards for the OIDC Authorization Code Flow with PKCE.
+5. **JWT id_token**: The unique hashed identifier is encapsulated within a signed JWT id_token, which is returned to the relying party application; conforming to standards for the OIDC Authorization Code Flow with PKCE.
 6. **Verifiable Credentials**: User data can additionally be presented as verifiable credentials, using TrustLink, enhancing security, privacy, and data ownership.
 
 ## Privacy and Security
