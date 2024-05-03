@@ -9,13 +9,20 @@ permalink: /docs/api-reference
 # API Reference
 <sub>{% last_modified_at %}</sub>
 
-UltraPass makes it easy to authenticate and receive verified data from people and organizations in just a few API calls. 
+<h1 id="client-api">UltraPass Client API</h1>
+<sub>{% last_modified_at %}</sub>
 
-Use **TrustLink** to issue, verify, and manage credentials.
+> REST API for interacting with UltraPass products and services
 
-Use **UAuth** to authenticate users and empower them to control their own data. 
+Service Endpoint:
 
-# Architecture
-![alt text](../../assets/images/product_architecture.png "Architecture")
+* **api.ultrapassid.com/client**
+
+Web: <a href="https://www.ultrapassid.com/">UltraPass</a> 
+
+# Authentication
+
+* API Key (x-upid-api-key)
+    - Parameter Name: **x-upid-api-key**, in: header. 
 
 {: .fs-6 .fw-300 }
