@@ -4,7 +4,7 @@ title: UAuth
 nav_order: 2
 has_children: true
 permalink: /docs/uauth
-last_modified_date: 2024-05-02
+last_modified_date: 2024-05-03
 ---
 # UltraPass UAuth
 
