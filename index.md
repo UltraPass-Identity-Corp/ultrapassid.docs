@@ -4,8 +4,6 @@ layout: home
 nav_order: 1
 last_modified_date: 2024-05-03
 ---
-
----
 # UltraPass Documentation
 
 Welcome to the **UltraPass Docs**. This is where you can find everything you need to know about how to integrate with UltraPass, your go-to platform for identity and credential solutions.
