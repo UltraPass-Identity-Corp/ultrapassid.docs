@@ -24,7 +24,6 @@ jtd.addEvent(toggleDarkMode, 'click', function(){
 </script>
 
 # UltraPass Documentation
-<sub>{% last_modified_at %}</sub>
 
 Welcome to the **UltraPass Docs**. This is where you can find everything you need to know about how to integrate with UltraPass, your go-to platform for identity and credential solutions.
 
