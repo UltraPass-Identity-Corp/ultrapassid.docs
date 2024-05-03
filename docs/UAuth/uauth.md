@@ -4,7 +4,7 @@ title: UAuth
 nav_order: 2
 has_children: true
 permalink: /docs/uauth
-last_modified_date: 5/2/2024
+last_modified_date: 2024-05-02
 ---
 
 Use **UAuth** to authenticate and store user data.

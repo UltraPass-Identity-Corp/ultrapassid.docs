@@ -3,7 +3,7 @@ layout: default
 title: TrustLink
 parent: API Reference
 nav_order: 1
-last_modified_date: 5/2/2024
+last_modified_date: 2024-05-02
 ---
 
 <h1 id="client-api-v1-credentials">TrustLink Credentials</h1>
