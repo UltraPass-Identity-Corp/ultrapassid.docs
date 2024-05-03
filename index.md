@@ -2,27 +2,10 @@
 title: Home
 layout: home
 nav_order: 1
-last_modified_date: 2024-05-02
+last_modified_date: 2024-05-03
 ---
 
 ---
-
-<!-- <button class="btn js-toggle-dark-mode">Preview dark color scheme</button> -->
-
-<script>
-const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
-
-jtd.addEvent(toggleDarkMode, 'click', function(){
-  if (jtd.getTheme() === 'dark') {
-    jtd.setTheme('light');
-    toggleDarkMode.textContent = 'Preview dark color scheme';
-  } else {
-    jtd.setTheme('dark');
-    toggleDarkMode.textContent = 'Return to the light side';
-  }
-});
-</script>
-
 # UltraPass Documentation
 
 Welcome to the **UltraPass Docs**. This is where you can find everything you need to know about how to integrate with UltraPass, your go-to platform for identity and credential solutions.
@@ -55,9 +38,9 @@ UltraPass offers several benefits for Organizations who want to integrate with v
 
 To get started with UltraPass, you need to follow these steps:
 
-1. Register for an account on the [UltraPass Portal](https://portal.ultrapassid.com), where you can manage your Organization and configure products.
-2. Explore our [Portal Guide](https://docs.ultrapassid.com/docs/portal), where you can find step-by-step instructions on how to create your first schema, issue your first credential, authenticate users, and more.
-3. Browse our [Technical Documentation](https://docs.ultrapassid.com/docs/api-reference), where you can find detailed guides, tutorials, references, and examples on how to integrate with our API platform.
+1. Register for an account on the [UltraPass Portal](https://portal.ultrapassid.com), where you can manage your Organization, configure products, and browse the TrustLink Marketplace.
+2. Explore our [Portal Reference](https://docs.ultrapassid.com/docs/portal), where you can find information about key terminology for how to leverage the administrative interface.
+3. Browse our [Technical Documentation](https://docs.ultrapassid.com/docs/api-reference), where you can find detailed references and examples on how to integrate with our API platform.
 4. Contact us if you have any questions or feedback. We are always happy to hear from you.
 
 We hope you enjoy using UltraPass and join us in building a more secure, private, and convenient digital world. Thank you for choosing UltraPass! 
