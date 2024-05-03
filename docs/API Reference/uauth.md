@@ -39,4 +39,48 @@ This flow ensures that even if an authorization code is intercepted, it cannot b
 ### Authentication Flow
 ![alt text](../../../assets/images/OIDC_AuthorizationCodeFlowPKCE.png "OIDC - Authorization Code Flow with PKCE")
 
-{: .fs-6 .fw-300 }
+## Authorization Code Flow Requests
+
+### Authorization Request
+```http
+GET /oauth2/v2.0/authorize? HTTP/1.1
+client_id={app_registration_client_id}
+&response_type=code
+&redirect_uri={redirect_uri}
+&response_mode=query
+&scope=openid
+&code_challenge={client_generated_code_challenge}
+&code_challenge_method=S256
+```
+
+|Parameter|Required|Description|
+|---|---|---|
+|client_id|true|ClientId of the Registered Application in the UltraPass Portal|
+|response_type|true|Must include ```code```|
+|redirect_uri|true|A valid redirect_uri configured for the Registered Application in the UltraPass Portal|
+|scope|true|Should contain either ```openid``` or can use default scope by specifying the client_id if access_tokens are required|
+|code_challenge|true|The ```code_challenge``` is a Base64 URL-encoded SHA256 hash of the ```code_verifier```. The ```code_verifier``` must be stored within your application for later use. For more information on using a ```code_verifier``` and generating a ```code_challenge```, see the [PKCE RFC](https://datatracker.ietf.org/doc/html/rfc7636). 
+|code_challenge_method|true|This is the method used to encode the ```code_verifier``` when generating the value for the ```code_challenge``` parameter. This MUST be S256.|
+|response_mode|false|Determines how the authoriation code is returned to your application. Accepted values: ```query,form_post,fragment```|
+
+### Token Retrieval
+```http
+POST /oauth2/v2.0/token? HTTP/1.1
+grant_type=authorization_code
+&client_id={app_registration_client_id}
+&scope=openid
+&code={received_authoriation_code}
+&redirect_uri={redirect_uri}
+&code_verifier={client_generated_code_verifier}
+
+Content-Type: application/x-www-form-urlencoded
+```
+
+|Parameter|Required|Description|
+|---|---|---|
+|grant_type|true|This must be ```authorization_code```|
+|client_id|true|ClientId of the Registered Application in the UltraPass Portal|
+|scope|true|Should contain either ```openid``` or can use default scope by specifying the client_id if access_tokens are required|
+|code|true|The ```code``` previously returned from the ```/authorize``` endpoint.| 
+|redirect_uri|true|A valid redirect_uri configured for the Registered Application in the UltraPass Portal|
+|code_verifier|true|The ```code_verifier``` used in the previous ```/authorize``` request used to receive an authorization code
