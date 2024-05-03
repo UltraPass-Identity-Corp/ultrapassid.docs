@@ -4,8 +4,8 @@ title: UAuth
 nav_order: 2
 has_children: true
 permalink: /docs/uauth
+last_modified_date: %H%M%S
 ---
-<sub>{% last_modified_at %}</sub>
 
 Use **UAuth** to authenticate and store user data.
 

@@ -3,7 +3,7 @@ layout: default
 title: UAuthFlow Configuration
 parent: UAuth
 nav_order: 1
+last_modified_date: %H%M%S
 ---
-<sub>{% last_modified_at %}</sub>
 
 ## Coming Soon

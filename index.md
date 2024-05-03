@@ -2,6 +2,9 @@
 title: Home
 layout: home
 nav_order: 1
+last_modified_date: %H%M%S
+---
+
 ---
 
 <!-- <button class="btn js-toggle-dark-mode">Preview dark color scheme</button> -->

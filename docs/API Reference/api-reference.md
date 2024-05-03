@@ -4,13 +4,12 @@ title: API Reference
 nav_order: 4
 has_children: true
 permalink: /docs/api-reference
+last_modified_date: %H%M%S
 ---
 
 # API Reference
-<sub>{% last_modified_at %}</sub>
 
 <h1 id="client-api">UltraPass Client API</h1>
-<sub>{% last_modified_at %}</sub>
 
 > REST API for interacting with UltraPass products and services
 

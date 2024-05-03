@@ -3,10 +3,10 @@ layout: default
 title: UAuth
 nav_order: 2
 parent: API Reference
+last_modified_date: %H%M%S
 ---
 
 # UAuth Integration
-<sub>{% last_modified_at %}</sub>
 
 UAuth is a secure and flexible decentralized identity provider that enables privacy preserving authentication in various systems and applications.
 
