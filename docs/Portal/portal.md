@@ -26,4 +26,22 @@ API Keys serve as a secure method of authenticating to the UltraPass APIs on beh
 
 Remember to adhere to these guidelines to ensure the security and efficiency of your Organization's operations.
 
+## Logs
+
+### Audit & Security
+
+Audit & Security logs are designed to provide comprehensive insights into user activities and API interactions within the UltraPass Platform. These logs are crucial for monitoring, securing the platform, and meeting complaiance standards.
+
+- **User Activity:** Every action performed by a user within the portal is logged, detailing the timestamp, user ID, and the specific action taken.
+- **Client API Interactions:** All API calls made by clients are recorded; including the endpoint accessed and request metedata.
+
+### Usage
+
+Usage logs offer a detailed record of product consumption related to credential management and authentication processes, such as:
+
+- **Credential Issuance & Verification:** Logs every instance of credential issuance and verification, capturing the Schema used, timestamp, and organization details.
+- **UAuth Logins:** Captures each successful UAuth login attempt, providing data on the unique identifier, timestamp, and application context involved in the authentication process.
+
+These logs are essential for analyzing product usage patterns, identifying trends, and making informed decisions about resource allocation and system improvements.
+
 {: .fs-6 .fw-300 }

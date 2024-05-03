@@ -29,7 +29,7 @@ Schemas are structured data definitions that outline the format and content of a
 - **Verification Schemas**: These are utilized by Verifying Organizations to validate the credentials presented to them. Verification Schemas are onboarded by Verifying Organizations to ensure that the credentials they receive comply with the required standards set by the published Issuance Schema.
 
 ### TrustLink Marketplace
-The TrustLink Marketplace is a digital platform where Issuing and Verifying Organizations interact. Issuing Organizations publish their Issuance Schemas on the marketplace, making them available for discovery by Verifying Organizations. This marketplace serves as a centralized hub for managing and exchanging verifiable credentials.
+The TrustLink Marketplace is a credential discovery platform where Issuing and Verifying Organizations interact. Issuing Organizations publish their Issuance Schemas on the marketplace, making them available for Verifying Organizations to onboard. This marketplace serves as a centralized hub for managing and exchanging verifiable credentials.
 
 ## Standards Compliance and Interoperability:
 
@@ -39,8 +39,8 @@ OpenID4VC provides a structured approach to credential issuance and presentation
 
 ## Integration:
 
-The integration process with TrustLink is designed to be straightforward, enabling organizations to connect to the TrustLink Marketplace, issue, and verify credentials efficiently, without the need for complex infrastructure. TrustLink administrators can use the UltraPass Portal for managing TrustLink Schemas.
+The integration process with TrustLink is designed to be straightforward, enabling organizations to issue and verify credentials efficiently, without the need for complex infrastructure. TrustLink administrators can use the UltraPass Portal for managing TrustLink Schemas and browsing the TrustLink Marketplace.
 
-For more detailed information on integration and usage, please refer to the TrustLink Integration Guide.
+For more detailed information on integration and usage, please refer to our SDKs or [TrustLink API Reference]("https://docs.ultrapassid.com/docs/API%20Reference/TrustLink.html) documentation.
 
 {: .fs-6 .fw-300 }

@@ -5,7 +5,7 @@ nav_order: 3
 parent: API Reference
 ---
 
-# UAuth Integrations
+# UAuth Integration
 <sub>{% last_modified_at %}</sub>
 
 UAuth is a secure and flexible decentralized identity provider that enables privacy preserving authentication in various systems and applications.
