@@ -3,7 +3,7 @@ layout: default
 title: TrustLink
 parent: API Reference
 nav_order: 1
-last_modified_date: 2024-05-02
+last_modified_date: 2024-05-03
 ---
 
 <h1 id="client-api-v1-credentials">TrustLink Credentials</h1>
@@ -13,8 +13,6 @@ last_modified_date: 2024-05-02
 <a id="opIdGenerateCredentialOfferAsync"></a>
 
 > Create an open standards verifiable credential offer based on a TrustLink Schema containing supplied user data. Returned response can be displayed to an end user with a QR Code or Deeplink.
-
-> Code samples
 
 ```http
 POST https://api.ultrapassid.com/client/v1/credentials/issue HTTP/1.1
@@ -102,8 +100,6 @@ apiKeyHeader
 
 > Create an open standards verifiable credential presentation request based on a TrustLink Schema containing supplied user data. Returned response can be displayed to an end user with a QR Code or Deeplink.
 
-> Code samples
-
 ```http
 POST https://api.ultrapassid.com/client/v1/credentials/verify HTTP/1.1
 Host: api.ultrapassid.com
@@ -184,8 +180,6 @@ apiKeyHeader
 <a id="opIdGetVerificationSessionResultAsync"></a>
 
 > Retrieve the result of a Verification Request
-
-> Code samples
 
 ```http
 GET https://api.ultrapassid.com/client/v1/credentials/verify/{sessionId} HTTP/1.1
@@ -491,8 +485,6 @@ apiKeyHeader
 
 <a id="opIdGetAllSchemaVerifiersAsync"></a>
 
-> Code samples
-
 ```http
 GET https://api.ultrapassid.com/client/v1/schema-verifiers HTTP/1.1
 Host: api.ultrapassid.com
@@ -557,8 +549,6 @@ apiKeyHeader
 ## GetAllPublishedSchemasAsync
 
 <a id="opIdGetAllPublishedSchemasAsync"></a>
-
-> Code samples
 
 ```http
 GET https://api.ultrapassid.com/client/v1/schemas HTTP/1.1
