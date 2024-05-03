@@ -3,7 +3,7 @@ layout: default
 title: Portal
 nav_order: 3
 permalink: /docs/portal
-last_modified_date: %H%M%S
+last_modified_date:
 ---
 
 # UltraPass Portal

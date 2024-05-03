@@ -3,7 +3,7 @@ layout: default
 title: UAuth
 nav_order: 2
 parent: API Reference
-last_modified_date: %H%M%S
+last_modified_date:
 ---
 
 # UAuth Integration

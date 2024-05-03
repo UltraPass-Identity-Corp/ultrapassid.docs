@@ -2,7 +2,7 @@
 title: Home
 layout: home
 nav_order: 1
-last_modified_date: %H%M%S
+last_modified_date:
 ---
 
 ---

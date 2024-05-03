@@ -4,7 +4,7 @@ title: API Reference
 nav_order: 4
 has_children: true
 permalink: /docs/api-reference
-last_modified_date: %H%M%S
+last_modified_date
 ---
 
 # API Reference

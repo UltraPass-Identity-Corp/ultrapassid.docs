@@ -4,7 +4,7 @@ title: TrustLink
 nav_order: 1
 has_children: true
 permalink: /docs/trustlink
-last_modified_date: %H%M%S
+last_modified_date:
 ---
 
 # UltraPass TrustLink
