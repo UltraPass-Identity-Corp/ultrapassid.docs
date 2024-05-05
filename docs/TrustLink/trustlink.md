@@ -43,11 +43,13 @@ DIDs are a new type of identifier that enables verifiable, self-sovereign digita
 
 The TrustLink verifiable credential platform currently supports several DID methods, including:
 
-- `did:jwt`: This method utilizes JSON Web Tokens (JWT) to create DIDs that are easy to use and integrate with existing systems. The `did:jwt` method encodes the DID subject's information within a self-contained JWT, which can be verified using standard cryptographic techniques.
+- `did:jwk`: This method is a simplified approach to creating a DID. It encodes a JSON Web Key (JWK) using a base64url, which results in a self-contained identifier that doesn't rely on a blockchain or distributed ledger technology. This method is particularly appealing for its straightforwardness and ease of use, making it a practical choice for those seeking to implement decentralized identifiers without the complexity of other methods. This is the default method used for non-production environments and simple use-cases.
 
 - `did:web`: The `did:web` method allows for DIDs to be associated with a domain name, enabling the resolution of DIDs over the web's existing DNS infrastructure. This method leverages the security and infrastructure of the internet to provide a simple, human friendly, and robust means of managing DIDs.
 
-- `did:cheqd`: This method is built on the [Cheqd network](https://github.com/cheqd), a public permissionless blockchain network for self-sovereign identity and verifiable credentials. `did:cheqd` enables users to control their identity data and credentials through a decentralized ledger, ensuring security and privacy.
+- `did:cheqd`: This method is built on the [Cheqd network](https://github.com/cheqd), a public permissionless blockchain network for self-sovereign identity and verifiable credentials. `did:cheqd` enables users to control their identity data and credentials through a decentralized ledger, ensuring security and privacy. This method can be used where blockchain or distributed ledger technology is required.
+
+    > It is important to consider the ramifications of committing decentralized identifiers to an immutable ledger. What may not be considered PII today, may become so in the future.
 
 Each of these methods provides a unique approach to creating and managing DIDs, offering flexibility and choice for users of the TrustLink platform. By supporting multiple DID methods, TrustLink ensures interoperability, road adoption, and the ability to address any use-case in the ecosystem of decentralized identity.
 
