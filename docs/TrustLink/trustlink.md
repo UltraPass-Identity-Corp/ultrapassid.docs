@@ -47,7 +47,7 @@ The TrustLink verifiable credential platform currently supports several DID meth
 
 - `did:web`: The `did:web` method allows for DIDs to be associated with a domain name, enabling the resolution of DIDs over the web's existing DNS infrastructure. This method leverages the security and infrastructure of the internet to provide a simple, human friendly, and robust means of managing DIDs.
 
-- `did:cheqd`: This method is built on the Cheqd network, a public permissionless blockchain network for self-sovereign identity and verifiable credentials. `did:cheqd` enables users to control their identity data and credentials through a decentralized ledger, ensuring security and privacy.
+- `did:cheqd`: This method is built on the [Cheqd network]("https://github.com/cheqd"), a public permissionless blockchain network for self-sovereign identity and verifiable credentials. `did:cheqd` enables users to control their identity data and credentials through a decentralized ledger, ensuring security and privacy.
 
 Each of these methods provides a unique approach to creating and managing DIDs, offering flexibility and choice for users of the TrustLink platform. By supporting multiple DID methods, TrustLink ensures interoperability, road adoption, and the ability to address any use-case in the ecosystem of decentralized identity.
 
@@ -55,6 +55,6 @@ Each of these methods provides a unique approach to creating and managing DIDs, 
 
 The integration process with TrustLink is designed to be straightforward, enabling organizations to issue and verify credentials efficiently, without the need for complex infrastructure. TrustLink administrators can use the UltraPass Portal for managing TrustLink Schemas and browsing the TrustLink Marketplace.
 
-For more detailed information on integration and usage, please refer to our SDKs or [TrustLink API Reference]("https://docs.ultrapassid.com/docs/API%20Reference/TrustLink.html) documentation.
+For more detailed information on integration and usage, please refer to our SDKs or [TrustLink API Reference]("https://docs.ultrapassid.com/docs/API%20Reference/TrustLink.html") documentation.
 
 {: .fs-6 .fw-300 }
