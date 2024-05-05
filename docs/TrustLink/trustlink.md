@@ -51,7 +51,7 @@ The TrustLink verifiable credential platform currently supports several DID meth
 
     > *It is important to consider the ramifications of committing decentralized identifiers to an immutable ledger. What may not be considered PII today, may become so in the future.*
 
-Each of these methods provides a unique approach to creating and managing DIDs, offering flexibility and choice for users of the TrustLink platform. By supporting multiple DID methods, TrustLink ensures interoperability, road adoption, and the ability to address any use-case in the ecosystem of decentralized identity.
+Each of these methods provides a unique approach to creating and managing DIDs, offering flexibility and choice for users of the TrustLink platform. By supporting multiple DID methods, TrustLink ensures interoperability, broad adoption, and the ability to address any use-case in the ecosystem of decentralized identity.
 
 ## Integration:
 
