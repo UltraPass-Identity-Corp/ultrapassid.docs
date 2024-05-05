@@ -49,7 +49,7 @@ The TrustLink verifiable credential platform currently supports several DID meth
 
 - `did:cheqd`: This method is built on the [Cheqd network](https://github.com/cheqd), a public permissionless blockchain network for self-sovereign identity and verifiable credentials. `did:cheqd` enables users to control their identity data and credentials through a decentralized ledger, ensuring security and privacy. This method can be used where blockchain or distributed ledger technology is required.
 
-    > It is important to consider the ramifications of committing decentralized identifiers to an immutable ledger. What may not be considered PII today, may become so in the future.
+    > *It is important to consider the ramifications of committing decentralized identifiers to an immutable ledger. What may not be considered PII today, may become so in the future.*
 
 Each of these methods provides a unique approach to creating and managing DIDs, offering flexibility and choice for users of the TrustLink platform. By supporting multiple DID methods, TrustLink ensures interoperability, road adoption, and the ability to address any use-case in the ecosystem of decentralized identity.
 
