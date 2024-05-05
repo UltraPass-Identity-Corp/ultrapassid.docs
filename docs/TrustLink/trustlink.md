@@ -33,9 +33,23 @@ The TrustLink Marketplace is a credential discovery platform where Issuing and V
 
 ## Standards Compliance and Interoperability:
 
+### Credential Exchange
 TrustLink supports the **OpenID4VC** standard for credential exchange, which is an extension of OpenID Connect tailored for verifiable credential applications. This standard allows for market interoperability with secure credential exchange and ensures adherence to established protocols. The supported credential formats include **JSON-LD**, **JWT**, and **SD-JWT** **W3C Verifiable Credentials** as well as **ISO/IEC 18013-5 mdoc/mDL**.
 
 **OpenID4VC** provides a structured approach to credential issuance and presentation, allowing for a variety of credential formats to be issued and presented. It follows familiar patterns within the OpenID specifications family, ensuring a consistent and reliable framework for digital identity verification.
+
+### Decentralized Identifiers (DIDs)
+DIDs are a new type of identifier that enables verifiable, self-sovereign digital identities. DIDs are fully under the control of the DID subject, independent from any centralized registry, identity provider, or certificate authority. DIDs are used in conjunction with verifiable credentials, which allow the holder to present proof of ownership of the credential without revealing any additional information.
+
+The TrustLink verifiable credential platform currently supports several DID methods, including:
+
+- `did:jwt`: This method utilizes JSON Web Tokens (JWT) to create DIDs that are easy to use and integrate with existing systems. The `did:jwt` method encodes the DID subject's information within a self-contained JWT, which can be verified using standard cryptographic techniques.
+
+- `did:web`: The `did:web` method allows for DIDs to be associated with a domain name, enabling the resolution of DIDs over the web's existing DNS infrastructure. This method leverages the security and infrastructure of the internet to provide a simple, human friendly, and robust means of managing DIDs.
+
+- `did:cheqd`: This method is built on the Cheqd network, a public permissionless blockchain network for self-sovereign identity and verifiable credentials. `did:cheqd` enables users to control their identity data and credentials through a decentralized ledger, ensuring security and privacy.
+
+Each of these methods provides a unique approach to creating and managing DIDs, offering flexibility and choice for users of the TrustLink platform. By supporting multiple DID methods, TrustLink ensures interoperability, road adoption, and the ability to address any use-case in the ecosystem of decentralized identity.
 
 ## Integration:
 
