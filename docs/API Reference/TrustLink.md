@@ -30,11 +30,11 @@ Generate Credential Offer from existing Published Schema
 
 ```json
 {
-  "credentialFields": {
+  "credential_fields": {
     "property1": "string",
     "property2": "string"
   },
-  "schemaKey": "f241d2e0-5a44-4703-974b-ec5012713f0b"
+  "schema_key": "f241d2e0-5a44-4703-974b-ec5012713f0b"
 }
 ```
 
@@ -116,7 +116,7 @@ Generate Verification Offer from existing Published Schema
 
 ```json
 {
-  "schemaKey": "f241d2e0-5a44-4703-974b-ec5012713f0b"
+  "schema_key": "f241d2e0-5a44-4703-974b-ec5012713f0b"
 }
 ```
 
