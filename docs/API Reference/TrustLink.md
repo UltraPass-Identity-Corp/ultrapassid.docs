@@ -133,6 +133,7 @@ Generate Verification Offer from existing Published Schema
 ```json
 {
   "open_id_verification_offer": "openid4vp://authorize?response_type=vp_token&client_id=&response_mode=direct_post&state=83rvNtvkaf2a&presentation_definition_uri=https%3A%2F%2Fdev-verifier.ultrapassid.com%2Fopenid4vc%2Fpd%2F83rvNtvkaf2a&client_id_scheme=redirect_uri&response_uri=https%3A%2F%2Fdev-verifier.ultrapassid.com%2Fopenid4vc%2Fverify%2F83rvNtvkaf2a"
+  "session_id": "AVSENPEkDSzb"
 }
 ```
 
@@ -202,40 +203,14 @@ Get Credential Verification Session Result
 
 > 200 Response
 
+The status can be 1, 2, 3.  `1` represents the verification is waiting end user to provide his credential; `2` represents the verification has been fulfilled successfully; `3` represents the verification has been failed.
+
 ```json
 {
-  "credential_subject": {
-    "Date of Birth": "1990-01-01",
-    "First Name": "John",
-    "Last Name": "Doe"
-  },
-  "policies": {
-    "failed": 0,
-    "succeeded": 2,
-    "total": 2
-  },
-  "success": true
+  "status": 1
 }
 ```
 
-> 400 Response
-
-```json
-[
-  {
-    "error_message": "error1",
-    "property_name": "property1"
-  },
-  {
-    "error_message": "error2",
-    "property_name": "property2"
-  },
-  {
-    "error_message": "error3",
-    "property_name": "property3"
-  }
-]
-```
 
 <h3 id="getverificationsessionresultasync-responses">Responses</h3>
 
