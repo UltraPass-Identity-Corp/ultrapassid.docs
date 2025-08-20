@@ -45,12 +45,12 @@ The AirLink SDK is a modular, on-device mobile SDK for document capture, biometr
    - It checks **Timatic AutoCheck** to validate travel document requirements, visa rules, and health regulations based on the passenger’s itinerary.
 
 3. **Identity Verification & Document Collection**  
-   - The SDK guides the user through capturing their passport or national ID using OCR and NFC.
+   - The SDK guides the user through capturing their passport, national ID, or other required travel document using OCR and NFC technology.
    - A selfie is captured with liveness detection, followed by a 1:1 facial match against the document photo.
-   - Identity is optionally validated against national ID systems or third-party verification services.
+   - Documents are verified using AI-based document forensic inspection or external system validation
 
 4. **Credential Issuance**  
-   - Based on verified identity and travel eligibility, AirLink issues verifiable credentials (e.g., digital ID, travel pass).
+   - Based on verified identity and travel eligibility, AirLink issues verifiable credentials (e.g., Digital Travel Credential (DTC), journey pass).
    - Credentials are stored securely in the on-device digital wallet for later use.
 
 5. **Biometric Enrollment for Airport Use**  
