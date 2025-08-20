@@ -1,7 +1,7 @@
 ---
 layout: default
-title: TrustLink
-nav_order: 1
+title: "TrustLink"
+nav_order: 2
 has_children: true
 permalink: /docs/trustlink
 last_modified_date: 2024-05-05

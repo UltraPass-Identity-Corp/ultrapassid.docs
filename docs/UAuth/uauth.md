@@ -1,15 +1,22 @@
 ---
 layout: default
 title: UAuth
-nav_order: 2
+nav_order: 3
 has_children: true
 permalink: /docs/uauth
-last_modified_date: 2024-05-03
+last_modified_date: 2025-01-06
 ---
+
 # UltraPass UAuth
 
 ## Overview
 UltraPass UAuth is a decentralized, privacy-preserving identity provider that utilizes a user's encrypted biometrics to generate hashed unique identifiers. This innovative approach ensures that biometric data remains solely on the user's device, protected by full homomorphic encryption.
+
+## Features
+- Compliant with IEEE 2410-2021 Standard for Biometric Privacy, and exempt from GDPR, CCPA, BIPA, and HIPPA privacy law obligations
+- On-device face registration and 1:n face login in under 200ms
+- 1:1 facial biometric verification supporting a wide range of physical and digital identity documents
+- Policy-based, modular, and customizable authentication flows to meet your business processes
 
 ## How It Works
 1. **Facial Biometrics**: Offered through an OIDC authentication flow, users scan their face using a web or mobile camera instead of entering a username and password. Their biometrics are captured quickly and stored in local storage on device.
