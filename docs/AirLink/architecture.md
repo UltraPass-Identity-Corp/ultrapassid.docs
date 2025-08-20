@@ -1,4 +1,5 @@
 ---
+layout: default
 title: "Architecture & Data Flow"
 parent: AirLink
 nav_order: 1

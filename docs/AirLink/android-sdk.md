@@ -1,4 +1,5 @@
 ---
+layout: default
 title: "Android SDK Reference (Kotlin)"
 parent: AirLink
 nav_order: 3

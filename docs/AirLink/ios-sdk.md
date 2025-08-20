@@ -1,4 +1,5 @@
 ---
+layout: default
 title: "iOS SDK Reference (Swift)"
 parent: AirLink
 nav_order: 2
