@@ -1,7 +1,7 @@
 ---
 layout: default
-title: API Reference
-nav_order: 4
+title: "API Reference"
+nav_order: 5
 has_children: true
 permalink: /docs/api-reference
 last_modified_date: 2024-05-02

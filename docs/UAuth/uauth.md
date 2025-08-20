@@ -1,11 +1,12 @@
 ---
 layout: default
 title: UAuth
-nav_order: 2
+nav_order: 3
 has_children: true
 permalink: /docs/uauth
 last_modified_date: 2025-01-06
 ---
+
 # UltraPass UAuth
 
 ## Overview
