@@ -10,6 +10,7 @@ last_modified_date: 2025-08-20
 
 The AirLink SDK is a modular, on-device mobile SDK for document capture, biometric matching, credential issuance/verification, and integration with travel/identity ecosystems.
 
+# Diagram
 ![AirLink Architecture](../../../assets/images/AirLink_Architecture.png "AirLink Architecture")
 
 ## Major Components
