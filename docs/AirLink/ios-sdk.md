@@ -115,12 +115,6 @@ Handles HTTP client, logging, and integration with external APIs (e.g., IATA, Na
 - Implement the `HttpClient` protocol for custom network logic.
 - Use the logger protocol for audit logs.
 
-### 8. Permissions & Privacy
-- Camera/NFC/Photos permissions in Info.plist
-- Explain data usage, storage, and deletion options to users
-
 ### 9. Error Handling & Concurrency
 - SDK methods throw typed errors (network, permission, invalid input)
 - Use async/await and main actor for UI updates
-
-> **Note:** Production apps must implement robust camera, NFC, and secure storage integrations.

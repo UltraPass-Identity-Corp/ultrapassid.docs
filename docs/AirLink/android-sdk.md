@@ -91,13 +91,6 @@ val resp = AirLink.compliance.verifyTravelCompliance(req)
 - Implement `HttpClient` interface (OkHttp/Retrofit)
 - Implement `AuditLogger` for user action logs
 
-## 8. Permissions & Privacy
-- Request runtime permissions (CAMERA, NFC)
-- Encrypt all PII; provide user data deletion option
-- Use TLS for all network calls
-
 ## 9. Error Handling & Concurrency
 - Suspend functions throw typed exceptions (permission, camera, NFC, network)
 - Use structured concurrency and timeouts
-
-> **Note:** Production apps must implement robust camera, NFC, and secure storage integrations.
