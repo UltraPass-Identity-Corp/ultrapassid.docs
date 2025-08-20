@@ -12,9 +12,9 @@ last_modified_date: 2025-08-20
 Welcome to the AirLink Mobile SDK documentation. This section provides technical guidance for integrating the AirLink SDK into your mobile applications, supporting both iOS and Android platforms.
 
 ## Contents
-- [Architecture & Data Flow](./airLink/architecture.html)
-- [iOS SDK Reference (Swift)](./airLink/ios-sdk.html)
-- [Android SDK Reference (Kotlin)](./airLink/android-sdk.html)
+- [Architecture & Data Flow](./AirLink/architecture.html)
+- [iOS SDK Reference (Swift)](./AirLink/ios-sdk.html)
+- [Android SDK Reference (Kotlin)](./AirLink/android-sdk.html)
 
 ---
 
