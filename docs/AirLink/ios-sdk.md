@@ -78,6 +78,7 @@ Handles capture and verification of various travel and identity documents, inclu
 - eVerify verification
 - Other required travel documents (e.g., visas, national IDs)
 Supports compliance checks and extensibility for new document types as required by travel regulations.
+
 ```swift
 // Passport NFC read
 let nfcOptions = PassportNFCOptions(includeImages: true, requestedDataGroups: ["DG1","DG2","DG11","DG14"])
