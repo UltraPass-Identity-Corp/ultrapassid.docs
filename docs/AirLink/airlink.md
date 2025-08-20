@@ -1,8 +1,10 @@
 ---
+layout: default
 title: "AirLink"
 nav_order: 1
 parent: null
 has_children: true
+permalink: /docs/airlink
 last_modified_date: 2025-08-20
 ---
 
