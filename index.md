@@ -41,6 +41,6 @@ UltraPass offers several benefits for organizations building with verifiable cre
 
 ## How to get started?
 
-To get started, reach out to us at [Link Text](mailto:contact@ultrapassid.com)
+To get started, reach out to us at [contact@ultrapassid.com](mailto:contact@ultrapassid.com)
 
 We’re excited to support your journey in building secure, interoperable, and user-centric identity solutions. Thank you for choosing UltraPass!
